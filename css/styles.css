@@ -26,7 +26,7 @@ header{
 }
 
 .speaker{
-   width: 100px;
+   width: 160px;
    height: 25px;
    background-color: rgba(94, 94, 94, 0.5);
    color: aliceblue;
@@ -34,6 +34,7 @@ header{
    border-radius: 5px;
    line-height: 1.5;
    text-align: center;
+   position: relative;
 }
 .cross{
     width: 28px;
@@ -42,12 +43,17 @@ header{
     color: aliceblue;
     margin: 10px;
     border-radius: 5px;
-    line-height: 1.5;
+    line-height: 1;
     text-align: center;
+    font-size: 17px;
     padding-right: 4px;
+    padding-top: 4px;
  }
  .fa-table-cells{
-    text-align: left;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 18px;
  }
 
 /* MAIN */
@@ -92,11 +98,9 @@ span{
     padding: 5px ;
 }
 
-/* #endregionMAIN */
+/* #endregion MAIN */
 
 /* FOOTER */
-
-   
 
 .bot-bar{
     display: flex;
@@ -104,6 +108,8 @@ span{
     height: 80px;
     width: 100vw;
     background-color: #222222;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .box{
     display: flex;
@@ -114,11 +120,15 @@ span{
     position: relative;
 }
 /* LEFT */
+
+.left{
+    width: 15vw;
+}
 .left1{
     color: aliceblue;
-    position: absolute; 
-    bottom: 12px; 
-    left: 0;
+    position: absolute;
+    bottom: 12px;
+    left: 24px;
 }
 .left2{
     color: aliceblue;
@@ -148,6 +158,7 @@ span{
 .right{
     display: flex;
     justify-content: flex-end;
+    width: 15vw;
     padding: 5px 20px;
 }
 button{
@@ -157,3 +168,40 @@ button{
 }
 
 /* RIGHT */
+
+/* CENTER */
+.center{
+    width: 70vw;
+    justify-content: center;
+}
+
+.centre{
+    font-size: 22px;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    list-style: none;
+}
+li{
+    padding: 15px;
+}
+
+.fa-share-from-square{
+    padding-left: 33px;
+}
+.fa-chart-column{
+    padding-left: 36px;
+}
+
+.fa-user-group{
+    padding-left: 50px;
+}
+.fa-microsoft{
+    padding-left: 40px;
+
+}
+/* CENTER */
