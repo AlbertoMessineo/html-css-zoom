@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     gap:10px;
 }
@@ -28,5 +28,29 @@ body{
     background-color: #216477;
     width: 160px;
     height: 100px;
+    position: relative;
 }
+.mic-info{
+    background-color: rgba(49, 48, 48, 0.5);
+    color: aliceblue;
+    width: 97px ;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i{
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+span{
+    padding: 5px ;
+}
+
 /* FOOTER */
