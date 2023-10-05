@@ -21,13 +21,13 @@ body{
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
-    gap:10px;
+    gap: 30px;
+    padding-left: 20px;
 }
 .item{
     display: flex;
-    background-color: #216477;
-    width: 160px;
-    height: 100px;
+    width: 244px;
+    height: 144px;
     position: relative;
 }
 .mic-info{
