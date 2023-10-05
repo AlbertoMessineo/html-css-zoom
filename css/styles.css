@@ -106,9 +106,54 @@ span{
     background-color: #222222;
 }
 .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: calc(100vw / 3);
+    padding-left: 10px;
+    position: relative;
 }
-.fa-microphone.fa-video{
+/* LEFT */
+.left1{
+    color: aliceblue;
+    position: absolute; 
+    bottom: 12px; 
+    left: 0;
+}
+.left2{
+    color: aliceblue;
+    position: absolute;
+    bottom: 12px;
+    left: 75px;
+}
+
+#microphone{
+    color: aliceblue;
+    font-size: 25px;
+    padding: 25px;
+    padding-top: 15px;
+   
+}
+#video{
     color: aliceblue;
     font-size: 22px;
+    padding: 10px;
+    padding-top: 15px;
+   
 }
+/* LEFT */
+
+
+/* RIGHT */
+.right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 20px;
+}
+button{
+    color: red;
+    background-color: #4a4a4a;
+    padding: 5px 10px;
+}
+
+/* RIGHT */
