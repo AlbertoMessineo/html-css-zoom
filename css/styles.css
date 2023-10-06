@@ -9,6 +9,8 @@
 /* COMMON */
 body{
     background-color:black;
+    font-size: 11px;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 
@@ -26,15 +28,16 @@ header{
 }
 
 .speaker{
-   width: 160px;
-   height: 25px;
-   background-color: rgba(94, 94, 94, 0.5);
-   color: aliceblue;
-   margin: 10px;
-   border-radius: 5px;
-   line-height: 1.5;
-   text-align: center;
-   position: relative;
+    width: 153px;
+    height: 26px;
+    background-color: rgba(94, 94, 94, 0.5);
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 5px;
+    line-height: 1.7;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
 }
 .cross{
     width: 28px;
